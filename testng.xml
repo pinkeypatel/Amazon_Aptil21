@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="com.Listeners.TestListener"></listener>
+    </listeners>
+
+    <test verbose="2" preserve-order="true" name="D:/IntelliJWokspace/s3">
+        <classes>
+            <class name="utils.TestRunner"></class>
+        </classes>
+    </test>
+</suite>
