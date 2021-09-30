@@ -11,6 +11,10 @@ public class Test {
         System.out.println("It is September");
     }
 
+    public void year(){
+        System.out.println("It is 2021");
+    }
+
     public static void main(String[] args) {
         Test test = new Test();
         test.day();
