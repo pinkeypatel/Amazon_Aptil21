@@ -5,7 +5,7 @@ import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(features = "Features"
                 ,glue = "in.amazon.testscripts"
-                ,tags = "@pizza"
+       ,tags = "@pizza"
                 //,dryRun = true
 )
 

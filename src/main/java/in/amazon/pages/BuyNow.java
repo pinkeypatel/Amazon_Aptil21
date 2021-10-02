@@ -11,16 +11,16 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class BuyNow {
     WebDriverWait wait;
 
-    @FindBy(id="buy-now-butto")
-    private WebElement buyNowBtn;
+    @FindBy(linkText = "Join Prime")
+    private WebElement joinPrimebtn;
 
     public BuyNow(WebDriver driver){
         PageFactory.initElements(driver, this);
         wait = new WebDriverWait(driver,30);
     }
 
-    public void clickBuyNowBtn(){
-        wait.until(ExpectedConditions.visibilityOf(buyNowBtn));
-        buyNowBtn.click();
+    public void clickjoinPimebtn(){
+        wait.until(ExpectedConditions.visibilityOf(joinPrimebtn));
+        joinPrimebtn.click();
     }
 }
