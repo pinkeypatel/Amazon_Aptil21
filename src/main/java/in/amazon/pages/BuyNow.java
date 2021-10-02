@@ -12,15 +12,15 @@ public class BuyNow {
     WebDriverWait wait;
 
     @FindBy(linkText = "Join Prime")
-    private WebElement joinPrimebtn;
+    private WebElement joinPrimeBtn;
 
     public BuyNow(WebDriver driver){
         PageFactory.initElements(driver, this);
         wait = new WebDriverWait(driver,30);
     }
 
-    public void clickjoinPimebtn(){
-        wait.until(ExpectedConditions.visibilityOf(joinPrimebtn));
-        joinPrimebtn.click();
+    public void clickJoinPrimeBtn(){
+        wait.until(ExpectedConditions.visibilityOf(joinPrimeBtn));
+        joinPrimeBtn.click();
     }
 }

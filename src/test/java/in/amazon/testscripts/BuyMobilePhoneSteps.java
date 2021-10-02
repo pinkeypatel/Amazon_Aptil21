@@ -40,7 +40,7 @@ public class BuyMobilePhoneSteps extends Driver {
     public void he_clicks_on_buy_now_button_on_new_tab() {
         ArrayList<String> tabs = new ArrayList<>(driver.getWindowHandles());
         driver.switchTo().window(tabs.get(1));
-        buyNow.clickjoinPimebtn();
+        buyNow.clickJoinPrimeBtn();
     }
 
     @Then("he must be able to purchase a new phone")
