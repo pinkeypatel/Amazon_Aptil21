@@ -11,7 +11,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class BuyNow {
     WebDriverWait wait;
 
-    @FindBy(id="buy-now-butto")
+    @FindBy(id="buy-now-button")
     private WebElement buyNowBtn;
 
     public BuyNow(WebDriver driver){
